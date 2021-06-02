@@ -2,10 +2,10 @@
 <html>
 <body>
  
-<select id="selector" onchanges"showf this)" ></select><br> 
+<select id="selector" onchanges"show(this)" ></select><br> 
 <iframe id="videoDisplay" width="480" height 400</iframe> 
 			
-<script src="https://ajax [googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
 <script> 
    $.ajax({ 
 		url: 'https://nj8wpstkt2.execute-api.us-east-2.amazonaws.com/default/welcome',
@@ -16,7 +16,7 @@
 	}); 
 	
 	function populate(urls) { 
-		var e document.getElementById('selector'); 
+		var e = document.getElementById('selector'); 
 		for (var i = 0; i < urls.length; i++) { 
 			e.innerHTML  = e.innerHTML + '<option value="' + i + '">' + urls[i] + '</option>';
 			}

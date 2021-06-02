@@ -2,8 +2,8 @@
 <html>
 <body>
  
-<select id="selector" onchanges"show(this)" ></select><br> 
-<iframe id="videoDisplay" width="480" height 400</iframe> 
+<select id="selector" onchanges= "show(this)" ></select><br> 
+<iframe id="videoDisplay" width="480" height="400"</iframe> 
 			
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
 <script> 
@@ -24,7 +24,7 @@
 		
 		function show(e) { 
 			var videoDisplay = document.getElementById('videoDisplay'); 
-			videoDisplay.src = e.options[e.selectedIndex]. text; 
+			videoDisplay.src = e.options[e.selectedIndex].text; 
 		}
 		
 </script> 
